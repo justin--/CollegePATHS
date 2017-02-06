@@ -414,3 +414,22 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+blockquote.style1 {
+  font: 14px/20px italic Times, serif;
+  background-color: rgba(	250,235,188, 0.4);
+  border-top: 1px solid #e1cc89;
+  border-bottom: 1px solid #e1cc89;
+  margin: 5px;
+  background-image: url(../images/openquote1.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  height: 100%;
+}
+blockquote.style1 span {
+  display: block;
+  background-image: url(../images/closequote1.gif);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
