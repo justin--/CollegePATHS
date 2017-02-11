@@ -5,13 +5,12 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var i18n = require('./i18n');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-app.get('/hikes', hike.index);
-app.post('/add_hike', hike.add_hike);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,10 +22,17 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(i18n);
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/hikes', hike.index);
+app.post('/add_hike', hike.add_hike);
+
+
 app.use('/', index);
-app.use('/users', users);
+app.use('/users', function (req, res) {
+    res.send('<body>res: ' + res.__('Hello') + ' req: ' + req.__('Hello') + '</body>');
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
