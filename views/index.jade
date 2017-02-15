@@ -6,56 +6,50 @@ block content
       .header-content-inner
         h1#homeHeading HGSA College PATHS
         hr
-        p
-          | Mission: To provide underrepresented students from the East Los Angeles (East LA) community with the academic skills and services required to gain college admission.
-        p.
-            College PATHS works with ninth and tenth grade students from J. A. Garfield High School to achieve college admission. 
-            Our program revolves around four intensive Saturday academies, which introduces students to relevant social justice issues 
-            and demystifies the college application process. Each student is paired with a mentor from the East LA community. 
-            We are committed to teaching our students the skills required to achieve their goals and to improve access, 
-            and equity within higher education in the United States.
-        a.btn.btn-primary.btn-xl.page-scroll(href='#about') Find Out More
-        a.btn.btn-primary.btn-xl(href='?lang=es') ¿En español?   
+        p #{__('MissionStatement.first')} 
+        p #{__('MissionStatement.second')} 
+        a.btn.btn-primary.btn-xl.page-scroll(href='#about') #{__('Find Out More')}
+        a.btn.btn-primary.btn-xl(href='?lang=es') #{__('InOther.language')}  
         
   section#about.bg-primary
     .container
       .row
         .col-lg-12.text-center
-          h2.section-heading The College PATHS Program
+          h2.section-heading #{__('The College PATHS Program')}
           hr
     .container
       .row
         .col-lg-3.col-md-6.text-center
           .service-box
             i.fa.fa-4x.fa-users.sr-icons
-            h3 Mentors
-            p College graduates will be devoted to assisting each student in accomplishing their goals and guiding them
+            h3 #{__('Mentors.header')}
+            p #{__('Mentors.summary')}
         .col-lg-3.col-md-6.text-center
           .service-box
             i.fa.fa-4x.fa-mortar-board.sr-icons
-            h3 College Access Workshops
+            h3 #{__('College Access Workshops')}
             ul.text-left
               li 
-                p A-G Requirements
+                p #{__('A-G Requirements')} 
               li 
-                p College Admissions 
+                p #{__('College Admissions')}
               li
-                p Personal Statements
+                p #{__('Personal Statements')} 
               li 
-                p Financial Aid &amp; Scholarship Resources
+                p #{__('Financial Aid &amp; Scholarship Resources')}
         .col-lg-3.col-md-6.text-center
           .service-box
             i.fa.fa-4x.fa-handshake-o.sr-icons
-            h3 Educational Panels
-            p Alumni from college access programs, scholarship recipients and career professionals will tell their first hand experience and knowledge 
+            h3 #{__('EducationalPanels.header')} 
+            p #{__('EducationalPanels.summary')}
         .col-lg-3.col-md-6.text-center
           .service-box
             i.fa.fa-4x.fa-balance-scale.sr-icons
-            h3 Social Justice Seminars
-            p Keynote speakers and mentors will expand students knowledge of important community issues
+            h3 #{__('Social Justice Seminars')}
+            p #{__('Seminars.summary')}
 
   section#alumni
-    h2.text-center Previous Student Experiences
+    h2.text-center #{__('Previous Student Experiences')}
     hr.primary
     .row
       .col-md-offset-2.col-md-8
@@ -107,20 +101,20 @@ block content
   section#donate.bg-dark
     .container.text-center
       .call-to-action
-        h2 Crowd Funding
-        a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/7xc2cs') Donate on our GoFundMe to help!
+        h2 #{__('Crowd Funding')}
+        a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/7xc2cs') #{__('Donate on our GoFundMe to help!')}
 
   section#contact
     .container
       .row
         .col-lg-8.col-lg-offset-2.text-center
-          h2.section-heading Apply Now!
+          h2.section-heading #{__('Contact.header')}
           hr.primary
           p
-            | Have any questions? Want to get involved? Contact us!
+            | #{__('Contact.summary')}
         .col-lg-4.text-center
           i.fa.fa-download.fa-3x.sr-contact
-          p Get an application
+          p #{__('Get an application')}
         .col-lg-4.text-center
           i.fa.fa-envelope-o.fa-3x.sr-contact
           p
@@ -128,11 +122,17 @@ block content
         .col-lg-4.text-center
           i.fa.fa-newspaper-o.fa-3x.sr-contact
           p
-            | Read our article on #[a(href='http://www.humanityinaction.org/knowledgebase/613-cap-ucla') Humanity in Action]
+            | #{__('Read our article on')} #[a(href='http://www.humanityinaction.org/knowledgebase/613-cap-ucla') Humanity in Action]
 
   script.
     $(document).ready(function() {
       //Set the carousel options
+      $('#quote-carousel').carousel({
+        pause: true,
+        interval: 4000,
+      });
+    });
+        Set the carousel options
       $('#quote-carousel').carousel({
         pause: true,
         interval: 4000,

@@ -1,4 +1,47 @@
 {
 	"Hello": "Hello",
-	"Welcome": "Welcome"
+	"Welcome": "Welcome",
+	"MissionStatement": {
+		"first": "Mission: To provide underrepresented students from the East Los Angeles community with the academic skills and support required to gain college admission.",
+		"second": "College PATHS works with ninth and tenth grade students throughout their J. A. Garfield High School careers to achieve admission into a 4-year college or university. Our program revolves around four intensive Saturday academies, which introduce students to relevant social justice issues and help demystify the college application process. Students selected to participate are paired with mentors that have graduated from a 4-year college or university and are familiar with the East Los Angeles community. We are committed to teaching our students the skills required to achieve their goals, and to increase access and equity within higher education."
+	},
+	"Find Out More": "Find Out More",
+	"InOther": {
+		"language": "¿En español?"
+	},
+	"The College PATHS Program": "The College PATHS Program",
+	"Mentors": {
+		"header": "Mentors",
+		"summary": "College graduates will be devoted to assisting each student in accomplishing their goals and guiding them"
+	},
+	"College Access Workshops": "College Access Workshops",
+	"A-G Requirements": "A-G Requirements",
+	"College Admissions": "College Admissions",
+	"Personal Statements": "Personal Statements",
+	"Financial Aid &amp; Scholarship Resources": "Financial Aid &amp; Scholarship Resources",
+	"EducationalPanels": {
+		"header": "Educational Panels",
+		"summary": "Alumni from college access programs, scholarship recipients and career professionals will tell their first hand experience and knowledge"
+	},
+	"Social Justice Seminars": "Social Justice Seminars",
+	"Seminars": {
+		"summary": "Keynote speakers and mentors will expand students knowledge of important community issues"
+	},
+	"Previous Student Experiences": "Previous Student Experiences",
+	"Crowd Funding": "Crowd Funding",
+	"Donate on our GoFundMe to help!": "Donate on our GoFundMe to help!",
+	"Contact": {
+		"header": "Apply Now!",
+		"summary": "Have any questions? Want to get involved? Contact us!"
+	},
+	"Get an application": "Get an application",
+	"Read our article on": "Read our article on",
+	"Menu": {
+		"about": "About",
+		"alumni": "Alumni",
+		"donate": "Donate",
+		"apply": "Apply",
+		"contact": "Contact",
+		"background": "Background"
+	}
 }
