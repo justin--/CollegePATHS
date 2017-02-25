@@ -37,17 +37,17 @@ html
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           ul.nav.navbar-nav.navbar-right
             li
-              a.page-scroll(href='#about') #{__('Menu.about')}
+              a.page-scroll(href=getHomeUrlZone('#about')) #{__('Menu.about')}
             li
-              a.page-scroll(href='#alumni') #{__('Menu.alumni')}
+              a.page-scroll(href=getHomeUrlZone('#alumni')) #{__('Menu.alumni')}
             li
-              a.page-scroll(href='#donate') #{__('Menu.donate')}
+              a.page-scroll(href=getHomeUrlZone('#donate')) #{__('Menu.donate')}
             li
-              a.page-scroll(href='#contact') #{__('Menu.apply')}
+              a.page-scroll(href=getHomeUrlZone('#contact')) #{__('Menu.apply')}
             li
-              a.page-scroll(href='#contact') #{__('Menu.contact')}
+              a.page-scroll(href=getHomeUrlZone('#contact')) #{__('Menu.contact')}
             li
-              a.page-scroll(href='background') #{__('Menu.background')}
+              a.page-scroll(href='background'+langParam) #{__('Menu.background')}
         // /.navbar-collapse
       // /.container-fluid
 
