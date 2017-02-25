@@ -9,6 +9,7 @@ var i18n = require('./i18n');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var background = require('./routes/background');
 
 var app = express();
 
@@ -25,14 +26,24 @@ app.use(cookieParser());
 app.use(i18n);
 app.use(express.static(path.join(__dirname, 'public')));
 
+// default local variables
+app.use(function (req, res, next) {
+   res.locals.langParam = req.getLocale() == 'en' ? '' : '?lang=es'
+   res.locals.getHomeUrlZone = function(area) {
+     return '/' + res.locals.langParam + area;
+   }
+   next();
+});
+
+// Routes
 app.get('/hikes', hike.index);
 app.post('/add_hike', hike.add_hike);
-
 
 app.use('/', index);
 app.use('/users', function (req, res) {
     res.send('<body>res: ' + res.__('Hello') + ' req: ' + req.__('Hello') + '</body>');
 });
+app.use('/background', background);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
