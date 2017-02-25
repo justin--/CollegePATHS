@@ -1,158 +1,141 @@
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    meta(name='description', content='')
-    meta(name='author', content='')
-    title College PATHS
-    // Bootstrap Core CSS
-    link(href='/vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
-    // Custom Fonts
-    link(href='/vendor/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
-    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic', rel='stylesheet', type='text/css')
-    // Plugin CSS
-    link(href='/vendor/magnific-popup/magnific-popup.css', rel='stylesheet')
-    // Theme CSS
-    link(href='/stylesheets/creative.css', rel='stylesheet')
-    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
-    // WARNING: Respond.js doesn't work if you view the page via file://
-    //if lt IE 9
-      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
-      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
-  body#page-top
-    nav#mainNav.navbar.navbar-default.navbar-fixed-top
-      .container-fluid
-        // Brand and toggle get grouped for better mobile display
-        .navbar-header
-          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
-            span.sr-only Toggle navigation
-            |  Menu 
-            i.fa.fa-bars
-          a.navbar-brand.page-scroll(href='#page-top') College PATHS Goal
-        // Collect the nav links, forms, and other content for toggling
-        #bs-example-navbar-collapse-1.collapse.navbar-collapse
-          ul.nav.navbar-nav.navbar-right
-            li
-              a.page-scroll(href='#about') About
-            li
-              a.page-scroll(href='#alumni') Alumni
-            li
-              a.page-scroll(href='#donate') Donate
-            li
-              a.page-scroll(href='#contact') Contact
-        // /.navbar-collapse
-      // /.container-fluid
-    header
-      .header-content
-        .header-content-inner
-          h1#homeHeading HGSA College PATHS
+extends layout 
+
+block content
+  header
+    .header-content
+      .header-content-inner
+        h1#homeHeading HGSA College PATHS
+        hr
+        p #{__('MissionStatement.first')} 
+        p #{__('MissionStatement.second')} 
+        a.btn.btn-primary.btn-xl.page-scroll(href='#about') #{__('Find Out More')}
+        a.btn.btn-primary.btn-xl(href='?lang=es') #{__('InOther.language')}  
+        
+  section#about.bg-primary
+    .container
+      .row
+        .col-lg-12.text-center
+          h2.section-heading #{__('The College PATHS Program')}
           hr
+    .container
+      .row
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-users.sr-icons
+            h3 #{__('Mentors.header')}
+            p #{__('Mentors.summary')}
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-mortar-board.sr-icons
+            h3 #{__('College Access Workshops')}
+            ul.text-left
+              li 
+                p #{__('A-G Requirements')} 
+              li 
+                p #{__('College Admissions')}
+              li
+                p #{__('Personal Statements')} 
+              li 
+                p #{__('Financial Aid &amp; Scholarship Resources')}
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-handshake-o.sr-icons
+            h3 #{__('EducationalPanels.header')} 
+            p #{__('EducationalPanels.summary')}
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-balance-scale.sr-icons
+            h3 #{__('Social Justice Seminars')}
+            p #{__('Seminars.summary')}
+
+  section#alumni
+    h2.text-center #{__('Previous Student Experiences')}
+    hr.primary
+    .row
+      .col-md-offset-2.col-md-8
+        #quote-carousel.carousel.slide(data-ride='carousel')
+          // Bottom Carousel Indicators
+          ol.carousel-indicators
+            li.active(data-target='#quote-carousel', data-slide-to='0')
+            li(data-target='#quote-carousel', data-slide-to='1')
+            li(data-target='#quote-carousel', data-slide-to='2')
+          // Carousel Slides / Quotes
+          .carousel-inner
+            // Quote 1
+            .item.active
+              blockquote
+                .row
+                  .col-sm-3.text-center
+                    img.img-circle(src='http://www.reactiongifs.com/r/overbite.gif', style='width: 100px;height:100px;')
+                    // <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">
+                  .col-sm-9
+                    p
+                      | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!
+                    small Someone famous
+            // Quote 2
+            .item
+              blockquote
+                .row
+                  .col-sm-3.text-center
+                    img.img-circle(src='https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg', style='width: 100px;height:100px;')
+                  .col-sm-9
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.
+                    small Someone famous
+            // Quote 3
+            .item
+              blockquote
+                .row
+                  .col-sm-3.text-center
+                    img.img-circle(src='https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg', style='width: 100px;height:100px;')
+                  .col-sm-9
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                    small Someone famous
+          // Carousel Buttons Next/Prev
+          a.left.carousel-control(data-slide='prev', href='#quote-carousel')
+            i.fa.fa-chevron-left
+          a.right.carousel-control(data-slide='next', href='#quote-carousel')
+            i.fa.fa-chevron-right
+
+  section#donate.bg-dark
+    .container.text-center
+      .call-to-action
+        h2 #{__('Crowd Funding')}
+        a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/7xc2cs') #{__('Donate on our GoFundMe to help!')}
+
+  section#contact
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2.text-center
+          h2.section-heading #{__('Contact.header')}
+          hr.primary
           p
-            | Mission: To provide underrepresented students from the East Los Angeles (East LA) community with the academic skills and services required to gain college admission.
-          p.
-             College PATHS works with ninth and tenth grade students from J. A. Garfield High School to achieve college admission. 
-             Our program revolves around four intensive Saturday academies, which introduces students to relevant social justice issues 
-             and demystifies the college application process. Each student is paired with a mentor from the East LA community. 
-             We are committed to teaching our students the skills required to achieve their goals and to improve access, 
-             and equity within higher education in the United States.
-          a.btn.btn-primary.btn-xl.page-scroll(href='#about') Find Out More    
-    section#about.bg-primary
-      .container
-        .row
-          .col-lg-12.text-center
-            h2.section-heading The College PATHS Program
-            hr
-      .container
-        .row
-          .col-lg-3.col-md-6.text-center
-            .service-box
-              i.fa.fa-4x.fa-user.sr-icons
-              h3 Mentors
-              p College graduates will be devoted to assisting each student in accomplishing their goals and guiding them
-          .col-lg-3.col-md-6.text-center
-            .service-box
-              i.fa.fa-4x.fa-mortar-board.sr-icons
-              h3 Breaking Down College Requirements
-              ul.text-left
-                li 
-                  p A-G Requirements
-                li 
-                  p Admissions &amp; Financial Aid
-                li
-                  p Personal Statements
-                li 
-                  p Scholarship Resources
-                li
-                  p How to Research (led by a UCLA librarian)
-          .col-lg-3.col-md-6.text-center
-            .service-box
-              i.fa.fa-4x.fa-handshake-o.sr-icons
-              h3 Educational Panels
-              p Alumni from college access programs, scholarship recipients and career professionals will tell their first hand experience and knowledge 
-          .col-lg-3.col-md-6.text-center
-            .service-box
-              i.fa.fa-4x.fa-balance-scale.sr-icons
-              h3 Social Justice
-              p Keynote speakers and mentors will widen students knowledge of important community issues
-    section#alumni
-      h2.text-center Previous Student Experiences
-      hr.primary
-      .container-fluid.no-padding
-        .row.no-gutter.popup-gallery
-          .col-lg-4.col-sm-6
-            blockquote.style1
-              span
-                em This is a quote
-          .col-lg-4.col-sm-6
-            blockquote.style1
-              span
-                em This is a quote
-          .col-lg-4.col-sm-6
-            blockquote.style1
-              span
-                em This is a quote
-          .col-lg-4.col-sm-6
-            blockquote.style1
-              span
-                em This is a quote
-          .col-lg-4.col-sm-6
-            blockquote.style1
-              span
-                em This is a quote
-          .col-lg-4.col-sm-6
-            blockquote.style1
-              span
-                em This is a quote
-    section#donate.bg-dark
-      .container.text-center
-        .call-to-action
-          h2 Crowd Funding
-          a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/7xc2cs') Donate on our GoFundMe to help!
-    section#contact
-      .container
-        .row
-          .col-lg-8.col-lg-offset-2.text-center
-            h2.section-heading Apply Now!
-            hr.primary
-            p
-              | Have any questions? Want to get involved? Contact us!
-          .col-lg-4.col-lg-offset-2.text-center
-            i.fa.fa-download.fa-3x.sr-contact
-            p Get an application
-          .col-lg-4.text-center
-            i.fa.fa-envelope-o.fa-3x.sr-contact
-            p
-              a(href='mailto:hgsacollegepaths@gmail.com') hgsacollegepaths@gmail.com
-    // jQuery
-    script(src='/vendor/jquery/jquery.min.js')
-    // Bootstrap Core JavaScript
-    script(src='/vendor/bootstrap/js/bootstrap.min.js')
-    // Plugin JavaScript
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
-    script(src='/vendor/scrollreveal/scrollreveal.min.js')
-    script(src='/vendor/magnific-popup/jquery.magnific-popup.min.js')
-    // Theme JavaScript
-    script(src='/javascripts/creative.min.js')
+            | #{__('Contact.summary')}
+        .col-lg-4.text-center
+          i.fa.fa-download.fa-3x.sr-contact
+          p #{__('Get an application')}
+        .col-lg-4.text-center
+          i.fa.fa-envelope-o.fa-3x.sr-contact
+          p
+            a(href='mailto:hgsacollegepaths@gmail.com') hgsacollegepaths@gmail.com
+        .col-lg-4.text-center
+          i.fa.fa-newspaper-o.fa-3x.sr-contact
+          p
+            | #{__('Read our article on')} #[a(href='http://www.humanityinaction.org/knowledgebase/613-cap-ucla') Humanity in Action]
+
+  script.
+    $(document).ready(function() {
+      //Set the carousel options
+      $('#quote-carousel').carousel({
+        pause: true,
+        interval: 4000,
+      });
+    });
+        Set the carousel options
+      $('#quote-carousel').carousel({
+        pause: true,
+        interval: 4000,
+      });
+    });
+        
