@@ -28,7 +28,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // default local variables
 app.use(function (req, res, next) {
-   res.locals.langParam = req.getLocale() == 'en' ? '' : '?lang=es'
+   var inEnglish = req.getLocale() == 'en';
+   res.locals.langParam = inEnglish ? '' : '?lang=es';
+   res.locals.changeLanguage = inEnglish ? '?lang=es' : '/';
    res.locals.getHomeUrlZone = function(area) {
      return '/' + res.locals.langParam + area;
    }
