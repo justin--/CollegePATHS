@@ -1,5 +1,5 @@
 rm ./myapp.zip
-zip ./myapp.zip -r * .[^.]*
+zip -9 -r --exclude=*.git*  ./myapp.zip ./
 read ver < version.txt
 echo "$((ver + 1))" > version.txt
 eb deploy -l "CollegePATHS_1.0.0.$ver"

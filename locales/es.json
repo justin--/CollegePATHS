@@ -7,7 +7,7 @@
 	},
 	"Find Out More": "Find Out More",
 	"InOther": {
-		"language": "In englsih?"
+		"language": "In english?"
 	},
 	"The College PATHS Program": "The College PATHS Program",
 	"Mentors": {
@@ -18,7 +18,7 @@
 	"A-G Requirements": "A-G Requirements",
 	"College Admissions": "College Admissions",
 	"Personal Statements": "Personal Statements",
-	"Financial Aid &amp; Scholarship Resources": "Financial Aid &amp; Scholarship Resources",
+	"Financial Aid & Scholarship Resources": "Financial Aid & Scholarship Resources",
 	"EducationalPanels": {
 		"header": "Educational Panels",
 		"summary": "Alumni from college access programs, scholarship recipients and career professionals will tell their first hand experience and knowledge"
@@ -46,6 +46,10 @@
 	},
 	"Background": {
 		"Inspiration": "California is home to the largest number of Latinos in the United States, and they have become the largest ethnic/racial group in California. Despite these numbers, Latinos are less likely to have a college degree than any other group in the state. While two-thirds graduate high school, only one-third complete the requirements making them eligible to directly apply to four-year colleges and universities. A severe lack of opportunity, support, and guidance is jeopardizing the future of those within this underrepresented community, especially undocumented youth.",
-		"Header": "Our Inspiration"
+		"Header": "Our Inspiration",
+		"Inspiration2": "Background.Inspiration2"
+	},
+	"Application": {
+		"instruction": "Application.instruction"
 	}
 }

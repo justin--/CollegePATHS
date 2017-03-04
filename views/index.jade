@@ -9,7 +9,7 @@ block content
         p #{__('MissionStatement.first')} 
         p #{__('MissionStatement.second')} 
         a.btn.btn-primary.btn-xl.page-scroll(href='#about') #{__('Find Out More')}
-        a.btn.btn-primary.btn-xl(href='?lang=es') #{__('InOther.language')}  
+        a.btn.btn-primary.btn-xl(href=''+changeLanguage) #{__('InOther.language')}  
         
   section#about.bg-primary
     .container
@@ -36,7 +36,7 @@ block content
               li
                 p #{__('Personal Statements')} 
               li 
-                p #{__('Financial Aid &amp; Scholarship Resources')}
+                p #{__('Financial Aid & Scholarship Resources')}
         .col-lg-3.col-md-6.text-center
           .service-box
             i.fa.fa-4x.fa-handshake-o.sr-icons
@@ -114,7 +114,7 @@ block content
             | #{__('Contact.summary')}
         .col-lg-4.text-center
           i.fa.fa-download.fa-3x.sr-contact
-          p #{__('Get an application')}
+          p #{__('Application.instruction')}
         .col-lg-4.text-center
           i.fa.fa-envelope-o.fa-3x.sr-contact
           p
