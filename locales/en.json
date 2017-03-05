@@ -42,7 +42,8 @@
 		"donate": "Donate",
 		"apply": "Apply",
 		"contact": "Contact",
-		"background": "Background"
+		"background": "Inspiration",
+		"team": "Our Team"
 	},
 	"Background": {
 		"Inspiration": "California is home to the largest number of Latinos in the United States, and they have become the largest ethnic/racial group in California. Despite these numbers, Latinos are less likely to have a college degree than any other group in the state. While two-thirds graduate high school, only one-third complete the requirements making them eligible to directly apply to four-year colleges and universities. A severe lack of opportunity, support, and guidance is jeopardizing the future of those within this underrepresented community, especially undocumented youth.",
@@ -51,5 +52,9 @@
 	},
 	"Application": {
 		"instruction": "Get an application"
+	},
+	"Team": {
+		"Header": "Our Team",
+		"Summary": "Team.Summary"
 	}
 }
