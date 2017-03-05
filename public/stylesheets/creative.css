@@ -427,6 +427,15 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+.panel-primary {
+  border-color: #F05F40;
+  margin: 20px;
+}
+.panel-primary .panel-heading {
+  color: white;
+  background-color: #F05F40;
+}
+
 blockquote.style1 {
   font: 14px/20px italic Times, serif;
   background-color: rgba(	250,235,188, 0.4);
@@ -453,6 +462,29 @@ blockquote.style1 span {
 .backgroundHeader .header-content .header-content-inner p {
   color: white;
 }
+
+
+
+#teamHeader {
+  background-image: url('../images/team.jpeg');
+   /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#teamHeader .header-content .header-content-inner p {
+  color: white;
+}
+
+#team {
+  margin: 20px;
+}
+
 
 
 /* carousel */
