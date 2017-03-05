@@ -6,12 +6,18 @@ block content
       .header-content-inner
         h1#homeHeading HGSA College PATHS
         hr
-        p #{__('MissionStatement.first')} 
-        p #{__('MissionStatement.second')} 
-        a.btn.btn-primary.btn-xl.page-scroll(href='#about') #{__('Find Out More')}
-        a.btn.btn-primary.btn-xl(href=''+changeLanguage) #{__('InOther.language')}  
-        
-  section#about.bg-primary
+      .container
+        .row
+          .col-lg-6.col-md-6.col-sm-12
+            img.img-responsive.center-block(src='/images/684.jpg')
+          .col-md-6.col-md-6.col-sm-12
+            p #{__('MissionStatement.first')} 
+            p #{__('MissionStatement.second')}          
+        .row
+          a.btn.btn-default.btn-xl.page-scroll(href='#about') #{__('Find Out More')}
+          a.btn.btn-default.btn-xl(href=''+changeLanguage) #{__('InOther.language')}  
+      
+  section#about
     .container
       .row
         .col-lg-12.text-center
@@ -21,12 +27,12 @@ block content
       .row
         .col-lg-3.col-md-6.text-center
           .service-box
-            i.fa.fa-4x.fa-users.sr-icons
+            i.fa.fa-4x.fa-users.sr-icons.text-primary
             h3 #{__('Mentors.header')}
             p #{__('Mentors.summary')}
         .col-lg-3.col-md-6.text-center
           .service-box
-            i.fa.fa-4x.fa-mortar-board.sr-icons
+            i.fa.fa-4x.fa-mortar-board.sr-icons.text-primary
             h3 #{__('College Access Workshops')}
             ul.text-left
               li 
@@ -39,18 +45,18 @@ block content
                 p #{__('Financial Aid & Scholarship Resources')}
         .col-lg-3.col-md-6.text-center
           .service-box
-            i.fa.fa-4x.fa-handshake-o.sr-icons
+            i.fa.fa-4x.fa-handshake-o.sr-icons.text-primary
             h3 #{__('EducationalPanels.header')} 
             p #{__('EducationalPanels.summary')}
         .col-lg-3.col-md-6.text-center
           .service-box
-            i.fa.fa-4x.fa-balance-scale.sr-icons
+            i.fa.fa-4x.fa-balance-scale.sr-icons.text-primary
             h3 #{__('Social Justice Seminars')}
             p #{__('Seminars.summary')}
 
-  section#alumni
+  section#alumni.bg-primary
     h2.text-center #{__('Previous Student Experiences')}
-    hr.primary
+    hr.light
     .row
       .col-md-offset-2.col-md-8
         #quote-carousel.carousel.slide(data-ride='carousel')
@@ -132,7 +138,7 @@ block content
         interval: 4000,
       });
     });
-        Set the carousel options
+        //Set the carousel options
       $('#quote-carousel').carousel({
         pause: true,
         interval: 4000,
