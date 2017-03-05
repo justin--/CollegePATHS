@@ -10,6 +10,7 @@ var i18n = require('./i18n');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var background = require('./routes/background');
+var team = require('./routes/team');
 
 var app = express();
 
@@ -46,6 +47,7 @@ app.use('/users', function (req, res) {
     res.send('<body>res: ' + res.__('Hello') + ' req: ' + req.__('Hello') + '</body>');
 });
 app.use('/background', background);
+app.use('/team', team);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

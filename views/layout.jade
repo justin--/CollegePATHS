@@ -32,7 +32,9 @@ html
             span.sr-only Toggle navigation
             |  Menu 
             i.fa.fa-bars
-          a.navbar-brand.page-scroll(href='#page-top') College PATHS Goal
+          a.navbar-brand.page-scroll(href=getHomeUrlZone('#page-top')) College PATHS Goal
+          a#langBtn.btn.btn-default.btn-sm(href=''+changeLanguage) #{__('InOther.language')}  
+          
         // Collect the nav links, forms, and other content for toggling
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           ul.nav.navbar-nav.navbar-right
@@ -48,6 +50,8 @@ html
               a.page-scroll(href=getHomeUrlZone('#contact')) #{__('Menu.contact')}
             li
               a.page-scroll(href='background'+langParam) #{__('Menu.background')}
+            li
+              a.page-scroll(href='team'+langParam) #{__('Menu.team')}
         // /.navbar-collapse
       // /.container-fluid
 
