@@ -14,8 +14,7 @@ block content
             p #{__('MissionStatement.first')} 
             p #{__('MissionStatement.second')}          
         .row
-          a.btn.btn-default.btn-xl.page-scroll(href='#about') #{__('Find Out More')}
-          a.btn.btn-default.btn-xl(href=''+changeLanguage) #{__('InOther.language')}  
+          a.btn.btn-default.btn-xl.page-scroll(href='#about') #{__('Find Out More')} 
       
   section#about
     .container
@@ -72,12 +71,15 @@ block content
               blockquote
                 .row
                   .col-sm-3.text-center
-                    img.img-circle(src='http://www.reactiongifs.com/r/overbite.gif', style='width: 100px;height:100px;')
+                    .circle-container(style='width: 100px;height:100px;')
+                      .circle-avatar(style='background-image:url(images/Melissa-Barales-Lopez.JPG);')
                     // <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">
                   .col-sm-9
                     p
-                      | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!
-                    small Someone famous
+                      | HGSA College Paths is undoubtedly an invaluable program. This program was my initial introduction to four-year universities, financial aid, and personal statements. 
+                      | HGSA College Paths, with it's informational college admission sessions and personal mentorship, unlocked my dream of wanting to attend college without having to worry 
+                      | about financial matters and ever since then my mentors have assisted me in fulfilling my aspiration.
+                    small Melissa Barales-Lopez
             // Quote 2
             .item
               blockquote
@@ -108,7 +110,7 @@ block content
     .container.text-center
       .call-to-action
         h2 #{__('Crowd Funding')}
-        a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/7xc2cs') #{__('Donate on our GoFundMe to help!')}
+        a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/college-paths') #{__('Donate on our GoFundMe to help!')}
 
   section#contact
     .container
@@ -119,8 +121,9 @@ block content
           p
             | #{__('Contact.summary')}
         .col-lg-4.text-center
-          i.fa.fa-download.fa-3x.sr-contact
-          p #{__('Application.instruction')}
+          a(href='/files/2016-2017 HGSA College PATHS Application.pdf' danger)
+            i.fa.fa-download.fa-3x.sr-contact
+            p #{__('Application.instruction')}
         .col-lg-4.text-center
           i.fa.fa-envelope-o.fa-3x.sr-contact
           p
