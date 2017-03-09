@@ -11,7 +11,7 @@ block content
                 .col-lg-12.text-center
                     h3.section-heading #{__('Team.Summary')}
                     hr
-        .container 
+        #table.container 
 
             .row
                 .col-md-offset-1.col-md-5
@@ -73,19 +73,46 @@ block content
                         .panel-heading
                             h3.panel-title #{__('Team.AraceliCentanino.Title')}
                         .panel-body #{__('Team.AraceliCentanino.Bio')}
+            .row 
+                .col-md-offset-3.col-md-6
+                    .panel.panel-primary
+                        .panel-heading
+                            h3.panel-title #{__('Team.JustinJordan.Title')}
+                        .panel-body #{__('Team.JustinJordan.Bio')}
 
 
-script.
-    $(document).ready(function() {
-      //Set the carousel options
-      $('#quote-carousel').carousel({
-        pause: true,
-        interval: 4000,
-      });
-    });
-        //Set the carousel options
-      $('#quote-carousel').carousel({
-        pause: true,
-        interval: 4000,
-      });
-    });
+block script
+    script.
+        $(document).ready(function() {
+            matchPanelHeight();
+        });
+
+        $(window).on('resize', function() {
+            removeHeights();
+            matchPanelHeight();
+        });
+
+        function matchPanelHeight() {
+            console.log("in here");
+            var rows = $('#table .row');
+            rows.each(function(i){
+                matchHeights($(this), '.panel-heading');
+                matchHeights($(this), '.panel-body');
+            });
+        }
+
+        function removeHeights(){
+            $("#table .row").each(function() {
+                $(this).find(".panel-heading").height("auto");
+                $(this).find(".panel-body").height("auto");
+            });
+        }
+
+        function matchHeights(parent, selector) {
+            var heights = parent.find(selector).map(function(){
+                    return $(this).outerHeight();
+                }).get();
+
+            var maxHeight = Math.max.apply(null, heights);
+            parent.find(selector).outerHeight(maxHeight);
+        }
