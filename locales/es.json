@@ -51,10 +51,50 @@
 		"Inspiration2": "Background.Inspiration2"
 	},
 	"Application": {
-		"instruction": "Application.instruction"
+		"instruction": "Get an application"
 	},
 	"Team": {
 		"Header": "Our Team",
-		"Summary": "Team.Summary"
+		"Summary": "The people with a passion to help the community.",
+		"JavierMunoz": {
+			"Title": "Javier Munoz - Founder, Fundraising Coordinator",
+			"Bio": "Javier Muñoz founded HGSA College PATHS in the Fall of 2015 and is primarily responsible for fundraising. He grew up in East Los Angeles, graduated from J. A. Garfield High School, and is currently a Ph.D. Student in the History Department at UCLA. Javier's experiences in East LA and his education at UCLA explain his deep commitment to helping helping underrepresented students achieve their goals and to provide them with the knowledge and opportunities he never had growing up."
+		},
+		"GabrielaGonzalez": {
+			"Title": "Gabriela Gonzalez - Community Programs Coordinator",
+			"Bio": "Gabby Gonzalez graduated from James A. Garfield '09 and attended Brown University '13, concentrating in Business, Entrepreneurship, and Organizational Studies. Moving back to East Los Angeles after living outside of California for more than 8 years, she decided to get involved with HGSA College PATHS as a way to reconnect with her community and share her experiences with current high school students."
+		},
+		"JoshuaRodriguez": {
+			"Title": "Joshua Rodriguez - Strategic Advisor",
+			"Bio": "Team.JoshuaRodriguez.Bio"
+		},
+		"MagaliCampos": {
+			"Title": "Magali Campos - Educational Development Coordinator",
+			"Bio": "Team.MagaliCampos.Bio"
+		},
+		"VanessaCalderon": {
+			"Title": "Vanessa Calderon - Communications Coordinator, Co-Director for Admissions",
+			"Bio": "Team.VanessaCalderon.Bio"
+		},
+		"ViridianaChabolla": {
+			"Title": "Viridiana Chabolla - Parent Outreach Coordinator",
+			"Bio": "Team.ViridianaChabolla.Bio"
+		},
+		"AldoMacias": {
+			"Title": "Aldo Macias - Student Outreach Coordinator",
+			"Bio": "Team.AldoMacias.Bio"
+		},
+		"FernandoLopez": {
+			"Title": "Fernando Lopez - College Access Coordinator",
+			"Bio": "Team.FernandoLopez.Bio"
+		},
+		"AraceliCentanino": {
+			"Title": "Araceli Centanino - Student Activities Coordinator, Master of Ceremonies",
+			"Bio": "Team.AraceliCentanino.Bio"
+		},
+		"JustinJordan": {
+			"Title": "Justin Jordan - Lead Web Architect, Co-Director for Admissions",
+			"Bio": "Graduated from James A. Garfield in 2009 and UCLA in 2015 with a B.S. in Computer Science. With a willingness to give back to the community, especially one he grew up in, he joined Javier in his quest to help underprivileged students."
+		}
 	}
 }
