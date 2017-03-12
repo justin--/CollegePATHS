@@ -12,7 +12,6 @@ block content
                     h3.section-heading #{__('Team.Summary')}
                     hr
         #table.container 
-
             .row
                 .col-md-offset-1.col-md-5
                     .panel.panel-primary
@@ -29,6 +28,18 @@ block content
                 .col-md-offset-1.col-md-5
                     .panel.panel-primary
                         .panel-heading
+                            h3.panel-title #{__('Team.VanessaCalderon.Title')}
+                        .panel-body #{__('Team.VanessaCalderon.Bio')}
+                .col-md-5
+                    .panel.panel-primary
+                        .panel-heading
+                            h3.panel-title #{__('Team.JustinJordan.Title')}
+                        .panel-body #{__('Team.JustinJordan.Bio')}
+        //-
+            .row
+                .col-md-offset-1.col-md-5
+                    .panel.panel-primary
+                        .panel-heading
                             h3.panel-title #{__('Team.JoshuaRodriguez.Title')}
                         .panel-body #{__('Team.JoshuaRodriguez.Bio')}
         
@@ -37,18 +48,6 @@ block content
                         .panel-heading
                             h3.panel-title #{__('Team.MagaliCampos.Title')}
                         .panel-body #{__('Team.MagaliCampos.Bio')}
-            .row
-                .col-md-offset-1.col-md-5
-                    .panel.panel-primary
-                        .panel-heading
-                            h3.panel-title #{__('Team.VanessaCalderon.Title')}
-                        .panel-body #{__('Team.VanessaCalderon.Bio')}
-           
-                .col-md-5
-                    .panel.panel-primary
-                        .panel-heading
-                            h3.panel-title #{__('Team.ViridianaChabolla.Title')}
-                        .panel-body #{__('Team.ViridianaChabolla.Bio')}
             .row
                 .col-md-offset-1.col-md-5
                     .panel.panel-primary
@@ -67,7 +66,6 @@ block content
                         .panel-heading
                             h3.panel-title #{__('Team.AldoMacias.Title')}
                         .panel-body #{__('Team.AldoMacias.Bio')}
-           
                 .col-md-5
                     .panel.panel-primary
                         .panel-heading
@@ -77,10 +75,8 @@ block content
                 .col-md-offset-3.col-md-6
                     .panel.panel-primary
                         .panel-heading
-                            h3.panel-title #{__('Team.JustinJordan.Title')}
-                        .panel-body #{__('Team.JustinJordan.Bio')}
-
-
+                            h3.panel-title #{__('Team.ViridianaChabolla.Title')}
+                        .panel-body #{__('Team.ViridianaChabolla.Bio')}
 block script
     script.
         $(document).ready(function() {
@@ -109,6 +105,9 @@ block script
         }
 
         function matchHeights(parent, selector) {
+            if ($(window).width() <= 991){
+                return;
+            }
             var heights = parent.find(selector).map(function(){
                     return $(this).outerHeight();
                 }).get();

@@ -12,7 +12,9 @@ block content
             img.img-responsive.center-block(src='/images/groupPicture.jpg')
           .col-md-6.col-md-6.col-sm-12
             p #{__('MissionStatement.first')} 
-            p #{__('MissionStatement.second')}          
+            p #{__('MissionStatement.second')}        
+        br
+        br  
         .row
           a.btn.btn-default.btn-xl.page-scroll(href='#about') #{__('Find Out More')} 
       
@@ -62,6 +64,7 @@ block content
           // Bottom Carousel Indicators
           ol.carousel-indicators
             li.active(data-target='#quote-carousel', data-slide-to='0')
+          //-
             li(data-target='#quote-carousel', data-slide-to='1')
             li(data-target='#quote-carousel', data-slide-to='2')
           // Carousel Slides / Quotes
@@ -80,6 +83,7 @@ block content
                       | HGSA College Paths, with it's informational college admission sessions and personal mentorship, unlocked my dream of wanting to attend college without having to worry 
                       | about financial matters and ever since then my mentors have assisted me in fulfilling my aspiration.
                     small Melissa Barales-Lopez
+          //-
             // Quote 2
             .item
               blockquote
