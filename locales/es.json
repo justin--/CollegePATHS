@@ -46,9 +46,9 @@
 		"team": "Our Team"
 	},
 	"Background": {
-		"Inspiration": "California is home to the largest number of Latinos in the United States, and they have become the largest ethnic/racial group in California. Despite these numbers, Latinos are less likely to have a college degree than any other group in the state. While two-thirds graduate high school, only one-third complete the requirements making them eligible to directly apply to four-year colleges and universities. A severe lack of opportunity, support, and guidance is jeopardizing the future of those within this underrepresented community, especially undocumented youth.",
+		"Inspiration": "There are approximately 54 million Latino/as living in the United States, making Latino/as the largest racial ethnic minority in the United States (U.S. Census, 2012). As Latino/as become the largest racial ethnic minority, California has become home to many of them. Latino/as make 52% of all k-12 student in California. Despite these numbers, we see far too few moving along the educational pipeline into higher education.",
 		"Header": "Our Inspiration",
-		"Inspiration2": "Background.Inspiration2"
+		"Inspiration2": "Latino/as are less likely to have a college degree than any other racial ethnic group in the United States. While two-thirds graduate high school, only one-third complete the requirements making them eligible to directly apply to four-year colleges and universities. A severe lack of opportunity, support, and guidance is jeopardizing the future of those within this underrepresented community, especially undocumented youth. Our hope is to help and support these underrepresented students thrive and reach their educational goals."
 	},
 	"Application": {
 		"instruction": "Get an application"
@@ -66,11 +66,11 @@
 		},
 		"JoshuaRodriguez": {
 			"Title": "Joshua Rodriguez - Strategic Advisor",
-			"Bio": "Team.JoshuaRodriguez.Bio"
+			"Bio": "Joshua Rodriguez has been involved with HGSA College PATHS since it first started in the Fall of 2015. He currently serves as strategic advisor, helping set the short and long term direction for the program. He grew up in Boyle Heights, graduated from J.A. Garfield High School, and currently works for NBCUniversal. Josh's experiences in East LA, his education at Pomona College, and constant contact with underrepresented students motivate him to continue being involved with the community."
 		},
 		"MagaliCampos": {
 			"Title": "Magali Campos - Educational Development Coordinator",
-			"Bio": "Team.MagaliCampos.Bio"
+			"Bio": "Magali Campos is HGSA College PATHS’ Educational Development Coordinator. She grew up in South East Los Angeles and graduated from Huntington Park High school. Magali went to the University of California Santa Cruz (UCSC) where she received a B.A. in psychology. She is currently a Ph.D. student in the Education Department at UCLA. She recognizes that she would not be where she is now if not for the help from others, and is passionate about giving back by helping students such as herself reach their goals."
 		},
 		"VanessaCalderon": {
 			"Title": "Vanessa Calderon - Communications Coordinator, Co-Director for Admissions",
@@ -82,19 +82,19 @@
 		},
 		"AldoMacias": {
 			"Title": "Aldo Macias - Student Outreach Coordinator",
-			"Bio": "Team.AldoMacias.Bio"
+			"Bio": "Aldo Macias Arellano was born in Guadalajara, Mexico and migrated to the U.S. at a young age. He attended public schools in East Los Angeles including Garfield High School (2005-2009) and obtained his B.A. from Kalamazoo College in 2013. At K College, he focused on Political Science, Sociology, and Public Policy. Since graduating, Aldo has based his work in building community through heavy involvement with local community organizations, local government, and commitment to civic engagement."
 		},
 		"FernandoLopez": {
 			"Title": "Fernando Lopez - College Access Coordinator",
-			"Bio": "Team.FernandoLopez.Bio"
+			"Bio": "Fernando Lopez holds a Bachelor of Arts degree in History and Public Affairs and a Master of Arts degree in Urban Teaching from UCLA. Mr. Lopez is a high school social studies teacher in the northeast region of Los Angeles where he sponsors a young women empowerment group called \"Power to Venus\" and focuses his classes on guiding students through the practice of becoming critical thinkers. In the end, he wants young people to become active participants in shaping the course of our society."
 		},
 		"AraceliCentanino": {
 			"Title": "Araceli Centanino - Student Activities Coordinator, Master of Ceremonies",
-			"Bio": "Team.AraceliCentanino.Bio"
+			"Bio": "Araceli joined HGSA College PATHS in the Fall of 2015. She grew up in San Diego and graduated from Patrick Henry High School and is currently a Ph.D. Student in the History Department at UCLA. As a former community college student, Araceli understands the importance of mentorship and supportive programs, like College PATHS, to the educational success of underrepresented students. She is committed to increasing access to higher education for first generation and students of color."
 		},
 		"JustinJordan": {
 			"Title": "Justin Jordan - Lead Web Architect, Co-Director for Admissions",
-			"Bio": "Graduated from James A. Garfield in 2009 and UCLA in 2015 with a B.S. in Computer Science. With a willingness to give back to the community, especially one he grew up in, he joined Javier in his quest to help underprivileged students."
+			"Bio": "Graduated from James A. Garfield in 2009 and UCLA in 2015 with a B.S. in Computer Science. He is currently working as a Software Engineer in Pasadena. With a willingness to give back to the community, especially one he grew up in, he joined Javier in his quest to help underprivileged students."
 		}
 	}
 }
