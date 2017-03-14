@@ -62,3 +62,17 @@
     });
 
 })(jQuery); // End of use strict
+
+var utils = {
+    matchHeights: function (parent, selector, isWidthDependent = false) {
+        if (isWidthDependent && $(window).width() <= 991){
+            return;
+        }
+        var heights = parent.find(selector).map(function(){
+                return $(this).outerHeight();
+            }).get();
+
+        var maxHeight = Math.max.apply(null, heights);
+        parent.find(selector).outerHeight(maxHeight);
+    }
+}

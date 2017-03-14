@@ -85,8 +85,8 @@ block script
             console.log("in here");
             var rows = $('#table .row');
             rows.each(function(i){
-                matchHeights($(this), '.panel-heading');
-                matchHeights($(this), '.panel-body');
+                utils.matchHeights($(this), '.panel-heading', true);
+                utils.matchHeights($(this), '.panel-body', true);
             });
         }
 
@@ -95,16 +95,4 @@ block script
                 $(this).find(".panel-heading").height("auto");
                 $(this).find(".panel-body").height("auto");
             });
-        }
-
-        function matchHeights(parent, selector) {
-            if ($(window).width() <= 991){
-                return;
-            }
-            var heights = parent.find(selector).map(function(){
-                    return $(this).outerHeight();
-                }).get();
-
-            var maxHeight = Math.max.apply(null, heights);
-            parent.find(selector).outerHeight(maxHeight);
         }

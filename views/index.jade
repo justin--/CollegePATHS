@@ -64,9 +64,8 @@ block content
           // Bottom Carousel Indicators
           ol.carousel-indicators
             li.active(data-target='#quote-carousel', data-slide-to='0')
-          //-
             li(data-target='#quote-carousel', data-slide-to='1')
-            li(data-target='#quote-carousel', data-slide-to='2')
+          //  li(data-target='#quote-carousel', data-slide-to='2')
           // Carousel Slides / Quotes
           .carousel-inner
             // Quote 1
@@ -83,19 +82,22 @@ block content
                       | HGSA College Paths, with it's informational college admission sessions and personal mentorship, unlocked my dream of wanting to attend college without having to worry 
                       | about financial matters and ever since then my mentors have assisted me in fulfilling my aspiration.
                     small Melissa Barales-Lopez
-          //-
+          
             // Quote 2
             .item
               blockquote
                 .row
                   .col-sm-3.text-center
-                    img.img-circle(src='https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg', style='width: 100px;height:100px;')
+                    .circle-container(style='width: 100px;height:100px;')
+                      .circle-avatar(style='background-image:url(images/AlexisCruz.jpg);')
                   .col-sm-9
                     p
-                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.
-                    small Someone famous
+                      | This program encouraged me to be open to sharing my personal stories and experiences. Thanks to this program I received the guidance and support necessary to compose an 
+                      | award winning scholarship essay for both the Warren Christopher scholarship ($20,000) and the Ford Driving Dreams scholarship. The guest speakers and mentors inspired me
+                      | to take pride in my roots and use writing as a platform to showcase my individuality.
+                    small Alexis Cruz
             // Quote 3
-            .item
+            //-.item
               blockquote
                 .row
                   .col-sm-3.text-center
@@ -137,18 +139,23 @@ block content
           p
             | #{__('Read our article on')} #[a(href='http://www.humanityinaction.org/knowledgebase/613-cap-ucla') Humanity in Action]
 
+block script
   script.
     $(document).ready(function() {
       //Set the carousel options
       $('#quote-carousel').carousel({
-        pause: true,
-        interval: 4000,
+        interval: 5000,
       });
+      // pause when indicators are clicked
+      $('.carousel-indicators li, .carousel-control')
+        .click(function(){
+          $('#quote-carousel').carousel('pause');
+        });
     });
-        //Set the carousel options
-      $('#quote-carousel').carousel({
-        pause: true,
-        interval: 4000,
-      });
+      //Set the carousel options
+    $('#quote-carousel').carousel({
+      interval: 5000,
     });
+
+    
         
