@@ -12,24 +12,27 @@
 	"The College PATHS Program": "The College PATHS Program",
 	"Mentors": {
 		"header": "Mentors",
-		"summary": "College graduates will be devoted to assisting each student in accomplishing their goals and guiding them"
+		"summary": "College graduates will be devoted to assisting students accomplish their goals"
 	},
 	"College Access Workshops": "College Access Workshops",
 	"A-G Requirements": "A-G Requirements",
 	"College Admissions": "College Admissions",
 	"Personal Statements": "Personal Statements",
-	"Financial Aid & Scholarship Resources": "Financial Aid & Scholarship Resources",
+	"Financial Aid & Scholarship": "",
 	"EducationalPanels": {
 		"header": "Educational Panels",
-		"summary": "Alumni from college access programs and career professionals will share their first hand experience and knowledge"
+		"summary": "Alumni from college access programs and career professionals will share their experience and knowledge with students"
 	},
 	"Social Justice Seminars": "Social Justice Seminars",
 	"Seminars": {
-		"summary": "Keynote speakers and mentors will facilitate student learning about important community issues"
+		"summary": "Keynote speakers and mentors will facilitate student critical thinking about important community issues"
 	},
-	"Previous Student Experiences": "Previous Student Experiences",
+	"Student Alumni Expriences": "",
 	"Crowd Funding": "Crowd Funding",
 	"Donate on our GoFundMe to help!": "Donate on our GoFundMe to help!",
+	"Funding": {
+		"Ended": "*The GoFundMe is no longer accepting donations."
+	},
 	"Contact": {
 		"header": "Apply Now!",
 		"summary": "Have any questions? Want to get involved? Contact us!"
@@ -58,7 +61,7 @@
 		"Summary": "The people with a passion to help the community.",
 		"JavierMunoz": {
 			"Title": "Javier Munoz - Founder, Fundraising Coordinator",
-			"Bio": "Javier Muñoz founded HGSA College PATHS in the Fall of 2015 and is primarily responsible for fundraising. He grew up in East Los Angeles, graduated from J. A. Garfield High School, and is currently a Ph.D. Student in the History Department at UCLA. Javier's experiences in East LA and his education at UCLA explain his deep commitment to helping helping underrepresented students achieve their goals and to provide them with the knowledge and opportunities he never had growing up."
+			"Bio": "Javier Muñoz founded HGSA College PATHS in the Fall of 2015 and is primarily responsible for fundraising. He grew up in East Los Angeles, graduated from J. A. Garfield High School, and is currently a Ph.D. Student in the History Department at UCLA. Javier's experiences in East LA and his education at UCLA explain his commitment to helping underrepresented students achieve their goals and to provide them with the knowledge and opportunities he could not access growing up."
 		},
 		"GabrielaGonzalez": {
 			"Title": "Gabriela Gonzalez - Community Programs Coordinator",
@@ -96,5 +99,7 @@
 			"Title": "Justin Jordan - Lead Web Architect, Co-Director for Admissions",
 			"Bio": "Graduated from James A. Garfield in 2009 and UCLA in 2015 with a B.S. in Computer Science. He is currently working as a Software Engineer in Pasadena. With a willingness to give back to the community, especially one he grew up in, he joined Javier in his quest to help underprivileged students."
 		}
-	}
+	},
+	"Financial Aid & Scholarship Resources": "Financial Aid & Scholarships",
+	"Previous Student Experiences": "Student Alumni Expriences"
 }

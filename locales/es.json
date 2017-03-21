@@ -2,99 +2,102 @@
 	"Hello": "Hola",
 	"Welcome": "Bienvenido",
 	"MissionStatement": {
-		"first": "Mission: To provide underrepresented students from the East Los Angeles community with the academic skills and support required to gain college admission.",
-		"second": "College PATHS works with ninth and tenth grade students throughout their J. A. Garfield High School careers to achieve admission into a 4-year college or university. Our program revolves around four intensive Saturday academies, which introduce students to relevant social justice issues and help demystify the college application process. Students selected to participate are paired with mentors that have graduated from a 4-year college or university and are familiar with the East Los Angeles community. We are committed to teaching our students the skills required to achieve their goals, and to increase access and equity within higher education."
+		"first": "Mission: Proporcionar a los estudiantes con baja representación de la comunidad del Este de Los Angeles con las habilidades académicas y el apoyo necesarios para obtener admisión a la universidad.",
+		"second": "College PATHS trabaja con estudiantes de noveno y décimo grado a lo largo de sus carreras en la Escuela Secundaria J. A. Garfield para lograr la admisión a una universidad. Nuestro programa gira en torno a cuatro cursos intensivos los sábados, que introducen a los estudiantes a temas relevantes de justicia social y ayudan a desmitificar el proceso de solicitud a la universidad. Los estudiantes seleccionados a participar son apoyados por tutores que se han graduado de la universidad y que están familiarizados con la comunidad del Este de Los Angeles. Estamos comprometidos a enseñar a nuestros estudiantes las habilidades necesarias para lograr sus metas, y para aumentar el acceso y la equidad dentro de la educación superior."
 	},
-	"Find Out More": "Find Out More",
+	"Find Out More": "Aprende mas sobre nostros",
 	"InOther": {
 		"language": "In english?"
 	},
-	"The College PATHS Program": "The College PATHS Program",
+	"The College PATHS Program": "El programa College PATHS",
 	"Mentors": {
-		"header": "Mentors",
-		"summary": "College graduates will be devoted to assisting each student in accomplishing their goals and guiding them"
+		"header": "Tutores",
+		"summary": "Graduados de la universidad se dedicarán a guiar y ayudar a cada estudiante en lograr sus metas"
 	},
-	"College Access Workshops": "College Access Workshops",
-	"A-G Requirements": "A-G Requirements",
-	"College Admissions": "College Admissions",
-	"Personal Statements": "Personal Statements",
-	"Financial Aid & Scholarship Resources": "Financial Aid & Scholarship Resources",
+	"College Access Workshops": "Talleres de acceso a la universidad",
+	"A-G Requirements": "A-G Requisitos",
+	"College Admissions": "Admisiones a la universidad",
+	"Personal Statements": "Declaraciones personales",
+	"Financial Aid & Scholarship Resources": "Ayuda Financiera & Becas",
 	"EducationalPanels": {
-		"header": "Educational Panels",
-		"summary": "Alumni from college access programs, scholarship recipients and career professionals will tell their first hand experience and knowledge"
+		"header": "Paneles Educativos",
+		"summary": "Graduados de programas de acceso a la universidad, becarios y profesionistas compartiran de primera mano su experiencia y conocimiento"
 	},
-	"Social Justice Seminars": "Social Justice Seminars",
+	"Social Justice Seminars": "Seminarios de Justicia Social",
 	"Seminars": {
-		"summary": "Keynote speakers and mentors will expand students knowledge of important community issues"
+		"summary": "Conferencistas y tutores ampliarán el conocimiento de los estudiantes sobre asuntos importantes de la comunidad"
 	},
-	"Previous Student Experiences": "Previous Student Experiences",
-	"Crowd Funding": "Crowd Funding",
-	"Donate on our GoFundMe to help!": "Donate on our GoFundMe to help!",
+	"Previous Student Experiences": "Experiencias previas de los estudiantes",
+	"Crowd Funding": "Donaciones",
+	"Donate on our GoFundMe to help!": "Done en nuestro GoFundMe para ayudar!",
+	"Funding": {
+		"Ended": "*El GoFundMe ya no acepta donaciones."
+	},
 	"Contact": {
-		"header": "Apply Now!",
-		"summary": "Have any questions? Want to get involved? Contact us!"
+		"header": "Aplica ahora!",
+		"summary": "Tienes preguntas? Quieres participar? Contactanos!"
 	},
-	"Get an application": "Get an application",
-	"Read our article on": "Read our article on",
+	"Get an application": "Obten una aplicacion",
+	"Read our article on": "Lea nuestro articulo en",
 	"Menu": {
-		"about": "About",
-		"alumni": "Alumni",
-		"donate": "Donate",
-		"apply": "Apply",
-		"contact": "Contact",
-		"background": "Inspiration",
-		"team": "Our Team"
+		"about": "Sobre Nostros",
+		"alumni": "Graduados",
+		"donate": "Donar",
+		"apply": "Aplica",
+		"contact": "Contactanos",
+		"background": "Inspiración",
+		"team": "Nuestro Equipo"
 	},
 	"Background": {
-		"Inspiration": "There are approximately 54 million Latino/as living in the United States, making Latino/as the largest racial ethnic minority in the United States (U.S. Census, 2012). As Latino/as become the largest racial ethnic minority, California has become home to many of them. Latino/as make 52% of all k-12 student in California. Despite these numbers, we see far too few moving along the educational pipeline into higher education.",
-		"Header": "Our Inspiration",
-		"Inspiration2": "Latino/as are less likely to have a college degree than any other racial ethnic group in the United States. While two-thirds graduate high school, only one-third complete the requirements making them eligible to directly apply to four-year colleges and universities. A severe lack of opportunity, support, and guidance is jeopardizing the future of those within this underrepresented community, especially undocumented youth. Our hope is to help and support these underrepresented students thrive and reach their educational goals."
+		"Inspiration": "California es el hogar del mayor número de latinos en los Estados Unidos, y se han convertido en el mayor grupo étnico en California. A pesar de estos números, los latinos son menos propensos a obtener un título universitario que cualquier otro grupo en el estado. Mientras que dos tercios se graduan de la escuela secundaria, sólo un tercio completan los requisitos que los hacen elegibles para aplicar directamente a las universidades. Una grave falta de oportunidades, apoyo y orientación está poniendo en peligro el futuro de aquellos dentro de esta comunidad subrepresentada, especialmente los jóvenes indocumentados.",
+		"Header": "Nuestra Inspiración",
+		"Inspiration2": "Latino/as es menos probable que tengan un título universitario que cualquier otro grupo étnico racial en los Estados Unidos. Mientras que dos tercios de la escuela secundaria graduada, sólo un tercio completar los requisitos que los hacen elegibles para aplicar directamente a los colegios de cuatro años y universidades. Una grave falta de oportunidades, apoyo y orientación está poniendo en peligro el futuro de quienes están dentro de esta comunidad subrepresentada, especialmente los jóvenes indocumentados. Nuestra esperanza es ayudar y apoyar a estos estudiantes sub-representados a prosperar y alcanzar sus metas educativas."
 	},
 	"Application": {
-		"instruction": "Get an application"
+		"instruction": "Obten una aplicacion"
 	},
 	"Team": {
-		"Header": "Our Team",
-		"Summary": "The people with a passion to help the community.",
+		"Header": "Nuestro Equipo",
+		"Summary": "Las personas con una pasion por ayudar a la comunidad.",
 		"JavierMunoz": {
-			"Title": "Javier Munoz - Founder, Fundraising Coordinator",
-			"Bio": "Javier Muñoz founded HGSA College PATHS in the Fall of 2015 and is primarily responsible for fundraising. He grew up in East Los Angeles, graduated from J. A. Garfield High School, and is currently a Ph.D. Student in the History Department at UCLA. Javier's experiences in East LA and his education at UCLA explain his deep commitment to helping helping underrepresented students achieve their goals and to provide them with the knowledge and opportunities he never had growing up."
+			"Title": "Javier Munoz - Fundador, Coordinador de Recaudación de Fondos",
+			"Bio": "Javier Muñoz Fundó HGSA College PATHS en el otoño del 2015 y es el principal responsable de la recaudación de fondos. Creció en el este de Los Angeles, se graduó de J. A. Garfield High School, y es actualmente un estudiante de Ph.D. en el Departamento de Historia de UCLA. Las experiencias de Javier en el Este de Los Angeles y su educación en la UCLA explican su profundo compromiso de ayudar a los estudiantes subrepresentados a lograr sus metas y a proporcionarles el conocimiento y las oportunidades que el nunca obtubo mientras crecia. "
 		},
 		"GabrielaGonzalez": {
-			"Title": "Gabriela Gonzalez - Community Programs Coordinator",
-			"Bio": "Gabby Gonzalez graduated from James A. Garfield '09 and attended Brown University '13, concentrating in Business, Entrepreneurship, and Organizational Studies. Moving back to East Los Angeles after living outside of California for more than 8 years, she decided to get involved with HGSA College PATHS as a way to reconnect with her community and share her experiences with current high school students."
+			"Title": "Gabriela Gonzalez - Coordinador de Programas Comunitarios",
+			"Bio": "Gabby Gonzalez se graduó de James A. Garfield '09 y asistió a Brown University '13, concentrándose en Negocios, Emprendimiento y Estudios Organizacionales. Regresó al Este de Los Ángeles después de vivir fuera de California por más de 8 años, decidió involucrarse con HGSA College PATHS como una forma de reconectarse con su comunidad y compartir sus experiencias con los estudiantes de secundaria actuales."
 		},
 		"JoshuaRodriguez": {
-			"Title": "Joshua Rodriguez - Strategic Advisor",
-			"Bio": "Joshua currently serves as a strategic advisor, helping set the short and long term direction for the program. He grew up in Boyle Heights and graduated from Garfield High School in 2009. He received his B.A. in Economics from Pomona College and currently works for NBCUniversal. His personal, professional, and academic experiences have motivated him to be an advocate for higher education and be involved in the community. He’s excited to use his personal experiences to mentor students at Garfield and help them achieve their goals."
+			"Title": "Joshua Rodriguez - Asesor Estratégico",
+			"Bio": "Joshua actualmente sirve como un asesor estratégico, ayudando a establecer la dirección a corto y largo plazo para el programa. Creció en Boyle Heights y se graduó de Garfield High School en 2009. Recibió su B.A. En Economía de Pomona College y actualmente trabaja para NBCUniversal. Sus experiencias personales, profesionales y académicas lo han motivado a ser un defensor de la educación superior ya estar involucrado en la comunidad. Él está emocionado de usar sus experiencias personales para orientar a los estudiantes en Garfield y ayudarles a alcanzar sus metas."
 		},
 		"MagaliCampos": {
-			"Title": "Magali Campos - Educational Development Coordinator",
-			"Bio": "Magali Campos is HGSA College PATHS’ Educational Development Coordinator. She grew up in South East Los Angeles and graduated from Huntington Park High school. Magali went to the University of California Santa Cruz (UCSC) where she received a B.A. in psychology. She is currently a Ph.D. student in the Education Department at UCLA. She recognizes that she would not be where she is now if not for the help from others, and is passionate about giving back by helping students such as herself reach their goals."
+			"Title": "Magali Campos - Coordinador de Desarrollo Educativo",
+			"Bio": "Magali Campos es Coordinadora de Desarrollo Educativo de HGSA College PATHS. Ella creció en el sureste de Los Ángeles y se graduó de Huntington Park High School. Magali fue a la Universidad de California Santa Cruz (UCSC) donde recibió un B.A. En psicología. Actualmente es Ph.D. Estudiante en el Departamento de Educación de la UCLA. Ella reconoce que ella no estaría donde está ahora si no fuera por la ayuda de otros, y es un apasionado de devolver ayudando a los estudiantes como ella a alcanzar sus metas."
 		},
 		"VanessaCalderon": {
-			"Title": "Vanessa Calderon - Communications Coordinator, Co-Director for Admissions",
-			"Bio": "Vanessa grew up in East LA and graduated from Garfield High School in 2009. She received her B.A. in Psychology from Yale University and is currently a graduate student in the Clinical Psychology Ph.D. program at USC. Her personal and academic experiences have motivated her to advocate for educational access for all students, especially those that are traditionally under-represented in higher education. She is excited to be a part of this organization and work with students from GHS!"
+			"Title": "Vanessa Calderon - Coordinador de Comunicaciones, Co-Director de Admisiones",
+			"Bio": "Vanessa creció en el Este de Los Angeles y se graduó de Garfield High School en 2009. Recibió su B.A. En Psicología de la Universidad de Yale y actualmente es una estudiante graduada del programa 'Clinical Psychology Ph.D.' en USC. Sus experiencias personales y académicas la han motivado a abogar por el acceso a la educación para todos los estudiantes, especialmente aquellos que tradicionalmente están subrepresentados en la educación superior. ¡Ella está emocionada de ser parte de esta organización y trabajar con estudiantes de GHS!"
 		},
 		"ViridianaChabolla": {
-			"Title": "Viridiana Chabolla - Parent Outreach Coordinator",
-			"Bio": "Viridiana Chabolla was raised in East Los Angeles, graduated from Garfield High School, and continues to live in East LA. She attended Pomona College, where she majored in Sociology and Chicana/o-Latina/o Studies. Since graduating from college, she has worked as an organizer at Public Counsel, a public interest law firm based out of Koreatown. Viridiana is passionate about immigration, education, feminism, and fashion. Her goal in being in HGSA is to help introduce East LA youth to social justice and improve access to higher education."
+			"Title": "Viridiana Chabolla - Coordinador de Extensión de Padres",
+			"Bio": "Viridiana Chabolla se crió en East Los Angeles, se graduó de Garfield High School, y sigue viviendo en el este de Los Ángeles. Asistió a Pomona College, donde se especializó en Sociología y Estudios Chicana / o-Latina. Desde que se graduó de la universidad, ha trabajado como organizadora en Public Counsel, una firma de abogados de interés público con sede en Koreatown. Viridiana es apasionada por la inmigración, la educación, el feminismo y la moda. Su meta en estar en HGSA es ayudar a introducir a los jóvenes de East LA a la justicia social y mejorar el acceso a la educación superior."
 		},
 		"AldoMacias": {
-			"Title": "Aldo Macias - Student Outreach Coordinator",
-			"Bio": "Aldo Macias Arellano was born in Guadalajara, Mexico and migrated to the U.S. at a young age. He attended public schools in East Los Angeles including Garfield High School (2005-2009) and obtained his B.A. from Kalamazoo College in 2013. At K College, he focused on Political Science, Sociology, and Public Policy. Since graduating, Aldo has based his work in building community through heavy involvement with local community organizations, local government, and commitment to civic engagement."
+			"Title": "Aldo Macias - Coordinador de Extensión del Estudiante",
+			"Bio": "Aldo Macias Arellano nació en Guadalajara, México y emigró a los Estados Unidos a una edad temprana. Asistió a escuelas públicas en el este de Los Ángeles incluyendo Garfield High School (2005-2009) y obtuvo su B.A. De Kalamazoo College en 2013. En K College, se centró en Ciencias Políticas, Sociología y Políticas Públicas. Desde su graduación, Aldo ha basado su trabajo en la construcción de comunidad a través de una fuerte participación con las organizaciones comunitarias locales, el gobierno local y el compromiso con el compromiso cívico."
 		},
 		"FernandoLopez": {
-			"Title": "Fernando Lopez - College Access Coordinator",
-			"Bio": "Fernando Lopez holds a Bachelor of Arts degree in History and Public Affairs and a Master of Arts degree in Urban Teaching from UCLA. Mr. Lopez is a high school social studies teacher in the northeast region of Los Angeles where he sponsors a young women empowerment group called \"Power to Venus\" and focuses his classes on guiding students through the practice of becoming critical thinkers. In the end, he wants young people to become active participants in shaping the course of our society."
+			"Title": "Fernando Lopez - Coordinador de Acceso a la Universidad",
+			"Bio": "Fernando López es Licenciado en Historia y Asuntos Públicos y tiene una Maestría en Ciencias Urbanas en UCLA. El Sr. López es profesor de estudios sociales en la región noreste de Los Ángeles, donde patrocina un grupo de empoderamiento de mujeres jóvenes llamado \"Poder a Venus\" y centra sus clases en orientar a los estudiantes a través de la práctica de convertirse en pensadores críticos. Al final, quiere que los jóvenes se conviertan en participantes activos en la configuración del curso de nuestra sociedad."
 		},
 		"AraceliCentanino": {
-			"Title": "Araceli Centanino - Student Activities Coordinator, Master of Ceremonies",
-			"Bio": "Araceli joined HGSA College PATHS in the Fall of 2015. She grew up in San Diego and graduated from Patrick Henry High School and is currently a Ph.D. Student in the History Department at UCLA. As a former community college student, Araceli understands the importance of mentorship and supportive programs, like College PATHS, to the educational success of underrepresented students. She is committed to increasing access to higher education for first generation and students of color."
+			"Title": "Araceli Centanino - Coordinador de Actividades Estudiantiles, Maestro de Ceremonias",
+			"Bio": "Araceli se unió a HGSA College PATHS en el otoño de 2015. Creció en San Diego y se graduó de Patrick Henry High School y actualmente es Ph.D. Estudiante en el Departamento de Historia de UCLA. Como ex estudiante universitario de la comunidad, Araceli entiende la importancia de la mentoría y programas de apoyo, como College PATHS, para el éxito educativo de los estudiantes subrepresentados. Ella está comprometida a aumentar el acceso a la educación superior para la primera generación y los estudiantes de color."
 		},
 		"JustinJordan": {
-			"Title": "Justin Jordan - Lead Web Architect, Co-Director for Admissions",
-			"Bio": "Graduated from James A. Garfield in 2009 and UCLA in 2015 with a B.S. in Computer Science. He is currently working as a Software Engineer in Pasadena. With a willingness to give back to the community, especially one he grew up in, he joined Javier in his quest to help underprivileged students."
+			"Title": "Justin Jordan - Arquitecto Web Principal, Co-Director de Admisiones",
+			"Bio": "Graduado de James A. Garfield en 2009 y UCLA en 2015 con un B.S. en Ciencias de la Computación. Con la voluntad de ayudar a la comunidad, especialmente una en el que creció, se unió a Javier en su búsqueda para ayudar a los estudiantes desfavorecidos."
 		}
-	}
+	}	
 }
