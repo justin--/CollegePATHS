@@ -18,7 +18,6 @@
 	"A-G Requirements": "A-G Requirements",
 	"College Admissions": "College Admissions",
 	"Personal Statements": "Personal Statements",
-	"Financial Aid & Scholarship": "",
 	"EducationalPanels": {
 		"header": "Educational Panels",
 		"summary": "Alumni from college access programs and career professionals will share their experience and knowledge with students"
@@ -27,7 +26,6 @@
 	"Seminars": {
 		"summary": "Keynote speakers and mentors will facilitate student critical thinking about important community issues"
 	},
-	"Student Alumni Expriences": "",
 	"Crowd Funding": "Crowd Funding",
 	"Donate on our GoFundMe to help!": "Donate on our GoFundMe to help!",
 	"Funding": {
@@ -61,7 +59,7 @@
 		"Summary": "The people with a passion to help the community.",
 		"JavierMunoz": {
 			"Title": "Javier Munoz - Founder, Fundraising Coordinator",
-			"Bio": "Javier Muñoz founded HGSA College PATHS in the Fall of 2015 and is primarily responsible for fundraising. He grew up in East Los Angeles, graduated from J. A. Garfield High School, and is currently a Ph.D. Student in the History Department at UCLA. Javier's experiences in East LA and his education at UCLA explain his commitment to helping underrepresented students achieve their goals and to provide them with the knowledge and opportunities he could not access growing up."
+			"Bio": "Javier Muñoz founded HGSA College PATHS in the Fall of 2015 and is primarily responsible for fundraising. He grew up in East Los Angeles, graduated from J. A. Garfield High School, and is currently a Ph.D. Student in the History Department at UCLA. Javier's experiences in East LA and his education at UCLA explain his commitment to helping underrepresented students achieve their goals."
 		},
 		"GabrielaGonzalez": {
 			"Title": "Gabriela Gonzalez - Community Programs Coordinator",
@@ -101,5 +99,5 @@
 		}
 	},
 	"Financial Aid & Scholarship Resources": "Financial Aid & Scholarships",
-	"Previous Student Experiences": "Student Alumni Expriences"
+	"Previous Student Experiences": "Student Alumni Experiences"
 }
