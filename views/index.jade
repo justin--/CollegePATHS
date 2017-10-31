@@ -116,8 +116,7 @@ block content
     .container.text-center
       .call-to-action
         h2 #{__('Crowd Funding')}
-        a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/college-paths') #{__('Donate on our GoFundMe to help!')}
-        p #{__('Funding.Ended')}
+        a.btn.btn-default.btn-xl.sr-button(href='https://www.gofundme.com/hgsa-college-paths-3rd-cohort') #{__('Donate on our GoFundMe to help!')}
 
   section#contact
     .container
@@ -127,11 +126,12 @@ block content
           hr.primary
           p
             | #{__('Contact.summary')}
-        .col-lg-4.text-center
+      .row
+        //.col-lg-4.text-center
           a(href='/files/2016-2017 HGSA College PATHS Application.pdf' danger)
             i.fa.fa-download.fa-3x.sr-contact
             p #{__('Application.instruction')}
-        .col-lg-4.text-center
+        .col-lg-4.col-lg-offset-2.text-center
           i.fa.fa-envelope-o.fa-3x.sr-contact
           p
             a(href='mailto:hgsacollegepaths@gmail.com') hgsacollegepaths@gmail.com
